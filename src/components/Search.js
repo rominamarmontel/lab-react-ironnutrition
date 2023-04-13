@@ -9,10 +9,10 @@ function Search({ handleInputChange, searchKeyword }) {
 
       <label htmlFor="search-keyword">Search</label>
       <Input
-        id="search-keyword"
         value={searchKeyword}
         type="text"
         onChange={handleInputChange}
+        style={{ width: '50%' }}
       />
     </>
   );

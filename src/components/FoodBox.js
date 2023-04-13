@@ -22,7 +22,7 @@ function FoodBox({ oneFood, handleDelete }) {
           kcal
         </p>
         {/* <Button type="primary"> Delete </Button> */}
-        <Button type="primary" onClick={() => handleDelete(oneFood.name)}>
+        <Button type="primary" onClick={() => handleDelete(oneFood.id)}>
           Delete
         </Button>
       </Card>
